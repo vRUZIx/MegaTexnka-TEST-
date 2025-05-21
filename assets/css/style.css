@@ -1,0 +1,704 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}   
+.contain{
+ max-width: 1200px;
+ margin: 0 auto;
+ width: 100%;
+}
+.header-container{
+    display: flex;
+    flex-direction: column;
+}
+div h4{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.5px;
+    color: #353535;
+}
+.first-hd-item{
+    background-color: #FFC01F;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-media-container ul{
+    display: flex;
+    gap: 24px;
+}
+.header-top{
+
+    background-color: #FFC01F;
+    padding-top: 12px;
+    padding-bottom: 13px;
+}
+.header-bottom{
+display: flex;
+justify-content: space-between ;
+align-items: center;
+padding-top: 60px;
+padding-bottom: 30px;
+
+}
+.section-nav ul{
+    display: flex;
+    gap: 54px;
+}
+.section-nav{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #353535;
+}
+.language ul{
+    display: flex;   
+}
+header{
+    box-shadow: 0px 2px 7px 0px #9F9F9F40;
+
+}
+.double-line{
+    display: none;
+width: 29px;
+gap: 7px;
+margin-right: 20px;
+}
+.line{
+    
+    border: 3px solid #FFC01F;
+    color: #FFC01F;
+    height: 1px;
+
+}
+.home{
+    background-image:url(../images/Vector.png);
+    background-repeat: no-repeat;        
+    background-position: left top; 
+    background-size: auto;
+}
+.home-container{
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.main-paragraph h2{
+    color: #596C72;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.main-paragraph p{
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #353535;
+}
+.image-1{
+
+    border: solid 18px #ffffff  ;
+}
+
+.image-1 img{
+    box-shadow: 0px 0px 10px 0px #95959540;
+
+}
+.first-btn{
+    text-align: center;
+    border: solid 1px #353535;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding: 12px;
+    background-color: white;
+}
+.first-btn:hover{
+    background-color: #FFC01F;
+    border:solid 1px #FFC01F;
+}
+.second-heading{
+    transform: translate(0, -30px);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #596C72;
+
+}
+.category{
+    background-image: url(../images/Mask\ groupbg-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cars{
+    box-shadow: 0px 0px 15px 0px #79797940;
+    width: calc((100% - 120px) / 4);
+}
+.car-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+.car-name{
+    padding: 50px;
+}
+.car-name h2{
+    text-align: center;
+    color: #596C72;
+    line-height: 26px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.cars figure{
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.part-3{
+    
+    display: flex;
+    background-image: url(../images/Mask\ groupbackground-3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px;
+    justify-content: space-between;
+    gap: 90px;
+}
+.part-3 >div{
+display: flex;
+align-items: flex-end;
+justify-content: space-between;
+gap: 80px;
+}
+.first-photo{
+    
+    box-shadow: 0px 0px 10px 0px #95959540;
+    padding: 18px;
+
+}
+.second-item-of-part-3{
+    display: flex;
+    flex-direction: column;
+
+}
+.second-photo{
+    box-shadow: 0px 0px 10px 0px #95959540;
+
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+}
+.article h2{
+color: #596C72;
+font-weight: 700;
+font-size: 50px;
+line-height: 70px;
+}
+.article p{
+    color: #353535;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+.part-4{
+    background-image: url(../images/part-4-back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.part-4 h2{
+    
+    color: #596C72;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+.yellow-btn{
+    margin-top: 30px;
+    border: solid 1px #FFC01F;
+    border-radius: 30px;
+    padding: 12px 55px;
+    background-color: #FFC01F;
+}
+.yellow-btn:hover{
+    background-color: #ffffff;
+    border:solid 1px #353535;
+}
+
+.new h2{
+    color: #596C72;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+.new-container{
+    display: flex;
+    gap: 20px;
+
+}
+.mark{
+    background-image: url(../images/Mask\ group.png);
+}
+.new-items{
+    width: calc((100% - 60px) / 4);
+}
+.new-items figure{
+    width: 100%;
+}
+.new-items figure img{
+    width: 100%;
+}
+.new-items div{
+    background-color: #ffffff;
+   padding: 20px;
+   box-shadow: 0px 0px 7px 0px #95959540;
+
+
+}
+.new-items div h3{
+    color: #191919;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 30px 0px 20px 0px;
+}
+.new-items div p{
+    color: #69768B;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 10px 0px 50px 0px;
+}
+.new-items div span{
+    color: #69768B;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 500;
+}
+.look{
+    
+    display: none;
+    background-color: #FFC01F;
+    border-radius: 30px;
+    border: solid 1px #FFC01F;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+}
+.look:hover{
+    border: solid 1px #353535;
+    background-color: #ffffff;
+}
+.contact {
+        background-color: #EFEFEF;
+    margin-top: 250px;
+}
+.contact >div{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.contact div div h2{
+    
+    color: #596C72;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+.contact div div p{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.contact div figure img{
+    width: 100%;
+    object-fit: cover;
+    transform: translate( 0 ,-200px);
+
+}
+.forms{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.forms input{
+    display: block;
+    width: calc((100% - 20px) / 2);
+    border: solid 1px #353535;
+    border-radius: 30px;
+    padding: 12px;
+}
+.btn{
+    text-align: center;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 55px;
+    background-color: #FFC01F;  
+}
+.btn:hover{
+background-color: #ffffff;
+}
+.reason{
+    padding: 100px 0;
+}
+.reason >div{
+    display: flex;
+}
+.reason div div h2{
+    color: #596C72;
+    line-height: 70px;
+    font-weight: 700;
+    font-size: 50px;
+}
+.reason div div{
+    max-width: 650px;
+    width: 100%;
+}
+.reason div div p{
+    max-width: 503px;
+    width: 100%;
+}
+.reason div figure{
+    padding: 18px;
+    box-shadow: 0px 0px 10px 0px #95959540;
+}
+.reason div div span{
+    font-size: 10px;
+    line-height: 70px;
+}
+.reason div figure img{
+    width: 100%;
+}
+.mark .contain >h2{
+    text-align: center;
+    color: #596C72;
+    font-size: 30px;
+    line-height: 36px;
+}
+.swiper-wrapper{
+    height: 50px;
+    gap: 83px ;
+}
+footer{
+    background-image: url(../images/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-bottom: 125px;
+    position: relative;
+    
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.container-of-heading{
+    display: flex;
+    gap: 81px;
+}
+.container-of-heading ul{
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+}
+.container-of-heading ul li{
+    color: #353535;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.right-part-of-footer ul li{
+    color: #353535;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 28px;
+    padding-top: 50px;
+}
+.container-of-logos{
+    display: flex;
+    justify-content: space-around;
+}
+footer h6{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+.left-foot{
+position: absolute;
+bottom: 30px;
+left: 60px
+}
+.right-foot{
+position: absolute;
+bottom: 30px;
+right: 60px;
+}
+.right-foot span{
+    font-weight: 600;
+}
+.second-logo{
+    display: none;
+}
+.yellow-line{
+    border:1px solid #FFC01F;
+    display: none;
+}
+.rent-for{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.heading-of-car-name h3{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #596C72;
+}
+.heading-of-car-name h5{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #686868;
+}
+.heading-of-car-name h6{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color:#B0ADAD;
+}
+.prices{
+    padding:30px 20px 20px 0;
+    text-align: end;
+}
+.prices h4{
+    
+    color: #FFC01F;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.padding-for-car{
+    padding: 30px;
+}
+.item-of-rent{
+    width: calc((100% - 60px ) / 4);
+    box-shadow: 0px 0px 7px 0px #95959540;
+    background-color: #ffffff;
+}
+.item-of-rent figure{
+    overflow: hidden;
+}
+.yellow-buton
+{margin: 50px 0 137px 0;
+    text-align: center;
+}
+.rent{
+    padding: 12px 0;
+    width: 100%;
+
+    border: 1px solid #353535;
+    border-radius: 30px;
+    background-color: white;
+    color: #353535;
+    
+    margin: 0 auto;
+}
+.rent:hover{
+    background-color: #FFC01F;
+    border: 1px solid #FFC01F;
+
+}
+@media (max-width: 990px) {
+    .contain{
+        padding: 20px;
+    }
+    .first-hd-item{
+        justify-content: space-around;
+        gap: 42px;
+    }
+    .section-nav{
+        display: none;
+    }
+    .language{
+        display: none;
+    }
+    .double-line{
+        
+    display: flex;
+    flex-direction: column;
+    }
+    .home{
+        background-image: url(../images/image\ 1image-1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+    }
+    .image-1{
+        display: none;
+    }
+    .first-btn{
+        border: #ffffff;
+    }
+    .main-paragraph h2{
+        color: #ffffff;
+    }
+    .main-paragraph p{
+        color: #ffffff;
+    }
+    .cars figure{
+        display: none;
+    }
+    .category{
+
+        gap: 20px;
+        justify-content: center;
+    }
+    .car-name{
+        padding: 30px 20px;
+    }
+    .car-name h2{
+        line-height: 21px;
+        font-size: 18px;
+    }
+    .cars{
+        width: calc((100% - 20px) / 2);
+    }
+    .part-3{
+        background-image: url(../images/image\ 6.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 0;
+        
+    }
+    .part-3 >div{
+        gap: 0;
+    }
+    .second-item-of-part-3{
+        width: 100%;
+    }
+    .first-photo{
+        display: none;
+    }
+    .second-photo{
+        display: none;
+    }
+    .article{
+        width: 100%;
+       
+    }
+    .article p{
+        color: #ffffff;
+    }
+    
+    .article h2{
+        margin-top: 245px;
+        color: #ffffff;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .new-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .new-items{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .look{
+        display: block;
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        width: 75%;
+    }
+    .contact figure{
+        display: none;
+    }
+    .contact div{
+        text-align: center;
+        width: 100%;
+    }
+    .forms input{
+       width: 100%;
+    }
+    .reason{
+        background-image: url(../images/image\ 8.png);
+    }
+    .reason >div{
+        color: #ffffff;
+    }
+    .reason div div p{
+        font-size: 14px;
+        line-height: 21px;
+        
+    }
+    .reason div div h2{
+        margin-top: 240px;
+        color: white;
+        font-size: 30px;
+        line-height: 20px;
+    }
+    .reason div figure{
+        display: none;
+    }
+    .reason div div span{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    footer{
+        background-image: url(../images/footer-for-moblie.png);
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .left-foot{
+        left: 20px;
+    }
+    .right-foot{
+        right: 20px;
+    }
+    footer{
+        padding-bottom: 73px;
+    }
+    .first-logo{
+        display: none;
+    }
+    .second-logo{
+        display: block ;
+        margin-bottom: 80px;
+    }
+    .yellow-line{
+        display: block;
+    }
+    .rent-for{
+        flex-direction: column;
+    }
+    .item-of-rent{
+        width: 100%;
+    }
+}
